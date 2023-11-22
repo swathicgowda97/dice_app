@@ -14,7 +14,7 @@ const  GradientContainer(this.colors,{super.key});
           colors: colors,
         ),
       ),
-      child: Center(child: DiceRoller()),
+      child: const Center(child: DiceRoller()),
     );
   }
 }
